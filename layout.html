@@ -6,128 +6,146 @@
   <title>layout</title>
   <style>
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
     .container2 {
       display: flex;
-    }
+      }
+
     .container {
       display: flex;
-      justify-content: center;
-      
-    }
+      }
 
     .container div, .container2 div {
-      
       padding: 10px;
-    }
+      }
 
-    .head {
-          
-          margin-bottom: 20px;
-    }
+    .head {   
+       margin-bottom: 20px;
+     }
 
     .links {
-      margin-top: 50px;
-          
+       margin-top: 50px;     
     }
 
-  .content {
+    .content {
     
-  }
+    }
 
-  .bottom {
+   .bottom {
     margin-top: 20px;
-  }
-
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+   }
     
-nav {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 20px 8%;
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  margin-top: 20px;
-}
+    nav {
+     width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 20px;
+    }
 
-nav ul li {
+    nav ul li {
     list-style: none;
     display: inline-block;
     margin-left: 40px;
-}
-nav ul li a {
-  text-decoration: none;
-  color: black;
-  font-size: 25px;
-}
+    }
+
+    nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    }
 
 
-h2, h1, h3 {
-  text-align: center;
-}
+    h2, h1, h3 {
+    text-align: center;
+    }
 
-.bookbutton {
-  font-size: 12px;
-  background-color: #a0c800;
-  padding: 14px;
-  position: absolute;
-  margin-left: 120px;
-  margin-top: 40px;
-  color: white;
-  border-radius: 3px;
-}
+  .bookbutton {
+    font-size: 12px;
+    background-color: #a0c800;
+    padding: 14px;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 40px;
+    color: white;
+    border-radius: 3px;
+    }
 
-  </style>
+  .images {
+  padding: 20px;
+  }
 
+  .special {
+  margin-top: 30px;
+  font-size: 30px;
+  }
+
+</style>
 </head>
+
 <body>
   <div class="container">
+
     <div class="head">
       <img src="logo.jpg" alt="logo" width="200px" height="80px">
     </div>
+
     <div class="links">
       <nav>
         <ul>
             <li><a href="home.html">Home</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="contact.html">Contact Us</a></li>
-
         </ul>
-
       </nav>
     </div>
+</div>
 
-  </div>
   <div class="container2">
     <div class="content">
       <h2>Natural Hair Salon </h2>
       <h2 >Lilongwe </h2>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 
-      <h3>     
-WE SPECIALIZE NATURAL HAIR TREATMENT, SERVICES INCLUDE, BRAIDING, FOR STYLING OCCASIONS
+      <h3 class="special">     
+        WE SPECIALIZE NATURAL HAIR TREATMENT, SERVICES INCLUDE, BRAIDING, FOR STYLING OCCASIONS
       </h3>
 
-      <h1 class="bookbutton" >BOOK NOW</h1>
-
-
+     <a href="https://forms.gle/1G6m7aHaEyVFU2wk7"> <h1 class="bookbutton" >BOOK NOW</h1></a>
     </div>
+
     <div class="image">
       <img src="smillling.jpg" alt="image">
     </div>
   </div>
 
   <div class="bottom">
-    <div>facebook</div>
-    <div>instagram</div>
-    <div>x</div>
+    <div class="images">
+      <a href="https://www.facebook.com/aveehairstudio"><img src="4202110_facebook_logo_social_social media_icon.png" alt="facebook" width="40px" height="40px"></a>   
+   </div>
+    
+    <div class="images">
+     <a href="https://www.instagram.com/avee_hair_studio/"> <img src="1298747_instagram_brand_logo_social media_icon.png" alt="instagram" width="40px" height="40px"></a>
+    </div>
+
+    <div class="images">
+      <a href="https://twitter.com/AveeHair"><img src="twitter.png" alt="twitter" width="40px" height="40px"></a>
+     
+    </div>
   </div>
 
+  <footer>&copy; Copyrights Reserved.</footer>
 
 </body>
 </html>
