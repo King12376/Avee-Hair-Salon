@@ -51,14 +51,16 @@
     padding: 20px 8%;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     margin-top: 20px;
     }
 
     nav ul li {
     list-style: none;
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 120px;
+    justify-content: flex-end;
+    
     }
 
     nav ul li a {
@@ -77,7 +79,7 @@
     background-color: #a0c800;
     padding: 14px;
     position: absolute;
-    margin-left: 120px;
+    margin-left: 460px;
     margin-top: 40px;
     color: white;
     border-radius: 3px;
@@ -90,6 +92,26 @@
   .special {
   margin-top: 30px;
   font-size: 30px;
+  }
+
+  .offers {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    box-sizing: content-box;
+   
+  }
+
+  .services, .workdays, .gallery {
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+  }
+
+  li {
+    margin-left: 10px;
+    color: black;
+    font-size: 30px;
   }
 
 </style>
@@ -128,6 +150,25 @@
     <div class="image">
       <img src="smillling.jpg" alt="image">
     </div>
+  </div>
+
+  <div class="offers">
+    <div class="services" >
+     <h1><u>Services</u></h1> 
+     <p><h2>Natural Hair Treatments</h2></p>
+     
+        <li>Washday Package</li>
+        <li>Protein Treatment Washday Package</li>
+        <li>Blowout Washday Package</li>
+        <li>Blowout and Trim Washday Package</li>
+        <li>Hot oil treatment washday package</li>
+
+     
+    </div>
+
+    <div class="workdays">workdays</div>
+    <div class="gallery">gallery</div>
+
   </div>
 
   <div class="bottom">
